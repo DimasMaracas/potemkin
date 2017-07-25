@@ -1,0 +1,24 @@
+//                $str = file_get_contents('tsconfig.json');
+//
+//
+//                while($row = @mysqli_fetch_assoc($result)) {
+//                    $str = json_decode($str,true);
+//                    $str = $row['id_news'];
+//                    $str = $row['text_news'];
+//                    $str = json_encode($str);
+//
+//                }
+//            file_put_contents('tsconfig.json', $str);
+//            $cars = array("lada", "ford", "bmw");
+//            //заносим в джейсон
+//                $json_cars = json_encode($cars);
+//                $json = file_get_contents('tsconfig.json');
+//                $json_new = json_encode($json);
+//
+//                foreach($json_new -> items as $value){
+//                    echo $value->{'id_news'};
+//                    echo $value->{'text_news'};
+//                    echo "<br />";
+//                }
+//                file_put_contents('tsconfig.json', $json_new);
+//
